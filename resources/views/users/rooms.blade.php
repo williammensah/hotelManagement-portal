@@ -1,8 +1,8 @@
-@extends('layout')
+@extends('users.layouts.app')
 
 @section('content')
-  <!-- Breadcrumb Section Begin -->
-  <div class="breadcrumb-section">
+<!-- Breadcrumb Section Begin -->
+<div class="breadcrumb-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -213,8 +213,5 @@
         </div>
     </div>
 </section>
-<!-- Rooms Section End -->    
+<!-- Rooms Section End -->
 @endsection
-
-
-  
